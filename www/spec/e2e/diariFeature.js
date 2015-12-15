@@ -1,4 +1,4 @@
-describe('DiaRi', function(){
+describe('DiariApp', function(){
 
   var addNewEventButton = $('#new-event')
 
