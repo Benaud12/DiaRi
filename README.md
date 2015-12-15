@@ -23,7 +23,7 @@ webdriver-manager start
 
 Run command-line http server:
 ```
-http-server
+http-server www/
 ```
 
 Finally, run the tests:

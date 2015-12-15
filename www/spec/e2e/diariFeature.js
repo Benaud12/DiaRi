@@ -1,7 +1,7 @@
 describe('DiaRi', function(){
 
   beforeEach(function(){
-    browser.get('http://localhost:8080/www');
+    browser.get('http://localhost:8080');
   });
 
   it('has a title', function(){
