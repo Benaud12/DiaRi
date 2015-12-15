@@ -12,7 +12,7 @@ npm install
 
 ####Running Tests
 
-######Protractor Feature Tests
+#####Protractor Feature Tests
 
 If [Protractor](http://www.protractortest.org/) and the [command line http-server](https://github.com/indexzero/http-server) need to be installed first run:
 
@@ -39,7 +39,7 @@ Finally, run the tests:
 protractor www/spec/e2e/conf.js
 ```
 
-######Karma Unit Tests
+#####Karma Unit Tests
 
 Run the below from command line:
 ```
