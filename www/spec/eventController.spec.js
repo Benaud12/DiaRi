@@ -1,4 +1,5 @@
 describe('EventController', function() {
+
   beforeEach(module('DiariApp'));
 
   var ctrl;
@@ -7,7 +8,8 @@ describe('EventController', function() {
     ctrl = $controller('EventController');
   }));
 
-  it('initiates with a hello message', function(){
-    expect(ctrl.message).toEqual('Hello World');
+  it('initiates with an empty list of events', function(){
+    expect(ctrl.allEvents.length).toEqual(0);
   });
+
 });
