@@ -1,7 +1,10 @@
 describe('DiaRi', function(){
-  it('has a title', function(){
-    browser.get('http://localhost:8080/www');
 
-    expect(browser.getTitle()).toEqual('DiaRi');
+  beforeEach(function(){
+    browser.get('http://localhost:8080/www');
+  });
+
+  it('has a title', function(){
+    expect(element(by.css('.title')).getText()).toEqual('DiaRi');
   });
 });
